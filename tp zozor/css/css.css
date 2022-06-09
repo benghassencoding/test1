@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+p
+{
+	width: 350px;
+	height: 50px;
+	margin: auto;
+	border: 1px solid black;
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 20px;
+	overflow: scroll;
+	word-wrap: break-word;
+}
+
+nav
+{
+	float: left;
+	width: 150px;
+	border: 1px solid black;	
+}
+
+section
+{
+	margin-left: 170px;
+	border: 1px solid blue;
+}
+
+element
+{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+}
+element2
+{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 2;
+}
